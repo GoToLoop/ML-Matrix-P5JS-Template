@@ -14,10 +14,10 @@ import {} from "p5/global"; // also get p5js global types
 import * as mlmtx from "ml-matrix"; // get ml-matrix types as namespace "mlmtx"
 
 declare global {
-  var p5: p5 // workaround to remove unused warnings for type p5.
+  const p5: p5 // workaround to remove unused warnings for type p5.
 }
 
-declare var mlMatrix: typeof mlmtx;  // make TS recognize mlMatrix as namespace "mlmtx"
+declare const mlMatrix: typeof mlmtx;  // make TS recognize mlMatrix as namespace "mlmtx"
 
 const { Matrix } = mlMatrix; // Unpack class Matrix from mlMatrix
 
