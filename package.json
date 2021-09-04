@@ -4,7 +4,7 @@
   "description": "Sorta template to have types for browser-loaded libs.",
   "author": "GoToLoop",
   "license": "Unlicense",
-  "homepage": "https://ml-matrix---p5js.glitch.me",
+  "homepage": "https://GitHub.com/GoToLoop/ML-Matrix-P5JS-Template",
   "main": "sketch.js",
   "browser": "index.html",
   "keywords": [
