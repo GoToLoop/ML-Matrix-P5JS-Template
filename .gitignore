@@ -8,5 +8,5 @@
 [Dd]esktop.ini
 $RECYCLE.BIN/
 
+node_modules
 package-lock.json
-node-modules
