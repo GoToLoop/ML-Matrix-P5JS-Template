@@ -43,7 +43,7 @@ function displayMatrix(matrix: mlmtx.Matrix) {
   const { rows, columns: cols } = matrix;
 
   for (var y = 0; y < rows; ++y)  for (var x = 0; x < cols; ++x) {
-    const n = eye.get(y, x);
+    const n = matrix.get(y, x);
     text(n, x * 100 + 50, y * 100 + 50);
   }
 }
