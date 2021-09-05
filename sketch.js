@@ -1,5 +1,5 @@
 /**
- * ML-Matrix + p5js Template (v1.0.1)
+ * ML-Matrix + p5js Template (v1.0.2)
  * GoToLoop (2021-Sep-04)
  *
  * https://Discourse.Processing.org/t/autocomplete-and-documentation-for-imported-p5js/31927/14
@@ -9,6 +9,7 @@
  */
 const { Matrix } = mlMatrix; // Unpack class Matrix from mlMatrix
 const eye = Matrix.eye(3); // variable eye is recognized as datatype Matrix
+p5; // workaround to remove unused warnings for type p5.
 globalThis.setup = function () {
     createCanvas(300, 300);
     noLoop();
