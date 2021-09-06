@@ -19,7 +19,8 @@
   "scripts": {
     "preinstall": "install-dev-apps & install-lib-types",
     "compile": "compile",
-    "start": "server"
+    "start": "server",
+    "test": "compile && server"
   },
   "devDependencies": {
     "@types/p5": ">=1",

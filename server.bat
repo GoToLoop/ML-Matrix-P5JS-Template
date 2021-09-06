@@ -1,1 +1,1 @@
-serve || pause
+start serve

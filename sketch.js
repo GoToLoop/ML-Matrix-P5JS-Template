@@ -1,5 +1,5 @@
 /**
- * ML-Matrix + p5js Template (v1.0.3)
+ * ML-Matrix + p5js Template (v1.0.4)
  * GoToLoop (2021-Sep-04)
  *
  * https://Discourse.Processing.org/t/autocomplete-and-documentation-for-imported-p5js/31927/14
