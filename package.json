@@ -1,12 +1,12 @@
 {
   "name": "ml-matrix-p5js-example",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Sorta template to have types for browser-loaded libs.",
   "author": "GoToLoop",
   "license": "Unlicense",
   "homepage": "https://GitHub.com/GoToLoop/ML-Matrix-P5JS-Template",
-  "main": "sketch.js",
-  "browser": "index.html",
+  "browser": "sketch.js",
+  "private": true,
   "keywords": [
     "ml-matrix",
     "p5js",
@@ -17,12 +17,20 @@
     "types"
   ],
   "scripts": {
-    "preinstall": "install-typescript & install-serve & install-types",
-    "compile": "tsc",
-    "start": "serve"
+    "preinstall": "install-dev-apps & install-lib-types",
+    "compile": "compile",
+    "start": "server"
   },
   "devDependencies": {
     "@types/p5": ">=1",
     "ml-matrix": ">=6"
+  },
+  "peerDependencies": {
+    "typescript": ">=4",
+    "serve": "x"
+  },
+  "peerDependenciesMeta": {
+    "typescript": { "optional": true },
+    "serve": { "optional": true }
   }
 }
