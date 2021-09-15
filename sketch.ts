@@ -8,7 +8,7 @@
  * https://GoToLoop.GitHub.io/ML-Matrix-P5JS-Template
  */
 
-import * as p5js from "p5"; // get p5js types as namespace "p5"
+import * as p5js from "p5"; // get p5js types as namespace "p5js"
 import {} from "p5/global"; // also get p5js global types
 
 import * as mlmtx from "ml-matrix"; // get ml-matrix types as namespace "mlmtx"
