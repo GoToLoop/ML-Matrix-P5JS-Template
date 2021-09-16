@@ -9,7 +9,7 @@
  */
 const { Matrix } = mlMatrix; // Unpack class Matrix from mlMatrix
 const eye = Matrix.eye(3); // variable eye is recognized as datatype Matrix
-p5; // workaround to remove unused warnings for type p5.
+// p5; // workaround to remove unused warnings for type p5.
 globalThis.setup = function () {
     createCanvas(300, 300);
     noLoop();
