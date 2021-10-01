@@ -8,8 +8,8 @@
  * https://GoToLoop.GitHub.io/ML-Matrix-P5JS-Template/index.instance.html
  */
 const { Matrix } = mlMatrix; // Unpack class Matrix from mlMatrix
-const eye = Matrix.eye(3); // variable eye is recognized as datatype Matrix
 new p5(function (p) {
+    const eye = Matrix.eye(3); // variable eye is recognized as datatype Matrix
     p.setup = function () {
         p.createCanvas(300, 300);
         p.noLoop();
