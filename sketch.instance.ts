@@ -17,7 +17,7 @@ declare const p5: typeof p5js; // make TS recognize p5 as a "p5js" value
 
 declare const mlMatrix: typeof mlmtx;  // make TS recognize mlMatrix as a "ml-matrix" value
 
-const { Matrix } = mlMatrix; // Unpack class Matrix from mlMatrix
+const { Matrix } = mlMatrix; // unpack class Matrix from mlMatrix
 
 new p5(function (p: p5) {
   const eye = Matrix.eye(3); // variable eye is recognized as datatype Matrix
