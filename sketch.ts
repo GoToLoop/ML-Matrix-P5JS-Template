@@ -18,7 +18,7 @@ import * as mlmtx from "ml-matrix"; // get ml-matrix types as namespace "mlmtx"
 
 declare const mlMatrix: typeof mlmtx;  // make TS recognize mlMatrix as a "ml-matrix" value
 
-const { Matrix } = mlMatrix; // Unpack class Matrix from mlMatrix
+const { Matrix } = mlMatrix; // unpack class Matrix from mlMatrix
 const eye = Matrix.eye(3); // variable eye is recognized as datatype Matrix
 
 // p5; // workaround to remove unused warnings for type p5.

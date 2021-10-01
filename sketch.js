@@ -7,7 +7,7 @@
  * https://GitHub.com/GoToLoop/ML-Matrix-P5JS-Template
  * https://GoToLoop.GitHub.io/ML-Matrix-P5JS-Template
  */
-const { Matrix } = mlMatrix; // Unpack class Matrix from mlMatrix
+const { Matrix } = mlMatrix; // unpack class Matrix from mlMatrix
 const eye = Matrix.eye(3); // variable eye is recognized as datatype Matrix
 // p5; // workaround to remove unused warnings for type p5.
 globalThis.setup = function () {
